@@ -22,7 +22,7 @@ xmlns:context="http://www.springframework.org/schema/context"
 		http://www.springframework.org/schema/security 
 		http://www.springframework.org/schema/security/spring-security-3.2.xsd">
 		
-		<description> oauth2 认证 </description>
+		<description> oauth2 认证 相关配置文件  </description>
 		
 		 <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"> 
 	        <property name="driverClass" value="${jdbc.driverClass}"/> 

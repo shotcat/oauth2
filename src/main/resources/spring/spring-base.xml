@@ -16,5 +16,5 @@
 		http://www.springframework.org/schema/tx 
 		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
 		<context:property-placeholder location="classpath:jdbc.properties"/>
-	 <import resource="spring-oauth2.xml"/>
+	 	<import resource="spring-oauth2.xml"/>
 </beans>
