@@ -120,7 +120,7 @@ xmlns:context="http://www.springframework.org/schema/context"
 	<bean id="tokenServices" class="org.springframework.security.oauth2.provider.token.DefaultTokenServices">
 		<property name="tokenStore" ref="tokenStore" />
 		<property name="supportRefreshToken" value="true" />
-		<property name="accessTokenValiditySeconds" value="120" />
+		<property name="accessTokenValiditySeconds" value="2592000" />
 		<property name="clientDetailsService" ref="jdbcClientDetailsService" />
 	</bean>
 	
