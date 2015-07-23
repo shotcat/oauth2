@@ -18,6 +18,12 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.util.Assert;
 
+/***
+ * 数据库用户信息认证服务类
+ * @author gaoyuandong
+ * @date   2015年7月23日 下午5:41:32
+ * @mail   466862016@qq.com
+ */
 public class Oauth2UserDetailsService implements UserDetailsService {
 
 	private final static Logger logger = Logger.getLogger(Oauth2UserDetailsService.class);
@@ -30,7 +36,10 @@ public class Oauth2UserDetailsService implements UserDetailsService {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
 	}
 
-
+	
+	/***
+	 * 根据用户名获取授权后的用户信息
+	 */
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		logger.info("用户授权..... 用户名为: "+ username);
 		UserDetails userDetails;
@@ -44,7 +53,13 @@ public class Oauth2UserDetailsService implements UserDetailsService {
 		logger.info("用户信息为: " + userDetails);
 		return userDetails;
 	}
-
+	
+	/***
+	 * 
+	 * @author gaoyuandong
+	 * @date   2015年7月23日 下午5:42:32
+	 * @mail   466862016@qq.com
+	 */
 	private static class UserDetailsRowMapper implements RowMapper<UserDetails> {
 
 		public UserDetails mapRow(ResultSet rs, int indx) throws SQLException {

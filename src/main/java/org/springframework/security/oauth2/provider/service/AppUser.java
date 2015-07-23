@@ -3,14 +3,18 @@ package org.springframework.security.oauth2.provider.service;
 import java.util.Collection;
 import java.util.Set;
 
-import org.apache.log4j.lf5.PassingLogRecordFilter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.oauth2.client.test.OAuth2ContextConfiguration.Password;
 
+/***
+ * 认证后的用户实体
+ * @author gaoyuandong
+ * @date   2015年7月23日 下午5:43:01
+ * @mail   466862016@qq.com
+ */
 public class AppUser implements UserDetails {
 
-	
+	private static final long serialVersionUID = 2053941784865663756L;
 	private String username;
 	private String password;
 	private boolean enabled;
