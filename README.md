@@ -2,6 +2,10 @@
 
 有关springsecrity部分请查看项目案例:
 
+https://github.com/dongtian3240/sys
+
+https://github.com/dongtian3240/pro
+
 springsecurity  oauth2认证部分->认证信息数据库存储
 执行sql 脚本、部署项目
 
