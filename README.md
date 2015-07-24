@@ -35,4 +35,29 @@ http://localhost:8080/spring-oauth2/oauth/token?grant_type=refresh_token&client_
 
 2、 本版本是个开发阶段，请勿用在生产中。出现问题自负！
 
-3、如有疑问请联系 qq :466862016
+
+3、其他相关项目:
+
+一、未集成cas单点的权限管理系统
+
+https://github.com/dongtian3240/sys
+
+二、集成cas单点登录的企业系统管理
+
+https://github.com/dongtian3240/pro
+
+三、采用jasig耶鲁大学的cas server cas 单点登录项目
+
+https://github.com/dongtian3240/cas
+
+四、基于springsecurity oauth2认证方式的实现，token数据库存储，提供app后台服务端项目
+
+https://github.com/dongtian3240/oauth2
+
+五、网络应用框架Apache Mina 相关学习案例(综合案例-简单的纯文本发送消息和带文件的发送消息案例 以及多人在线聊天系统服务端)
+
+https://github.com/dongtian3240/mina
+
+
+
+如有疑问请联系 qq :466862016
