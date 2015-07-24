@@ -1,4 +1,4 @@
-# oauth2 for springsecurity 认证方式的实现
+# Oauth2 for SpringSecurity 认证方式的实现
 
 有关springsecrity部分请查看项目案例:
 
