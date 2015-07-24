@@ -3,6 +3,7 @@ springsecurity  oauth2认证部分->认证信息数据库存储
 执行sql 脚本、部署项目
 
 一、获取  access_token
+ 
  http://localhost:8080/spring-oauth2/oauth/token?grant_type=password&client_id=restapp&client_secret=restapp&username=dongtian&password=dongtian
  
  {"access_token":"4a5fc354-7110-45b0-bf45-c14b791e8a54","token_type":"bearer","refresh_token":"24235180-0e1a-49cb-8759-4730d37569cc","expires_in":119,"scope":"read trust write"}
